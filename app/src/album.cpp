@@ -9,7 +9,7 @@ Album::Album(QWidget *parent) : QWidget(parent), ui(new Ui::Album) {
     connect(ui->ContextMenu, &QPushButton::customContextMenuRequested, [this, parent](QPoint pos) {
         QMenu *menu = new QMenu(this);
         QAction *Export = new QAction(tr("Export"), this);
-        QAction *ChangeImg = new QAction(tr("ChangeImg"), this);
+        QAction *ChangeImg = new QAction(tr("Change Image"), this);
         QAction *Delete = new QAction(tr("Delete"), this);
         setContextButtons(Export, ChangeImg, Delete, parent);
         menu->addAction(Export);
@@ -58,7 +58,7 @@ void Album::setContextButtons(QAction *Export, QAction *ChangeImg,
             painter.drawRoundedRect(0, 0, m_icon->width(), m_icon->height(), 50, 50);
             m_icon->setMask(map);
             ui->ContextMenu->setIcon(QIcon(*m_icon));
-            ui->ContextMenu->setIconSize(m_icon->rect().size());
+            ui->ContextMenu->setIconSize(QSize(ui->ContextMenu->width() / 2, ui->ContextMenu->width() / 2));
         }
     });
     connect(Delete, &QAction::triggered, [this, parent]() {

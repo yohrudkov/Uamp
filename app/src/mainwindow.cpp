@@ -327,7 +327,7 @@ void MainWindow::connectButtons() {
     });
     connect(ui->ChooseImg, &QPushButton::clicked, [this]() {
         ui->ChooseImgLe->setText("");
-        QString path = QFileDialog::getOpenFileName(this, tr("Open file"), "~", tr("*.jpeg"));
+        QString path = QFileDialog::getOpenFileName(this, tr("Open file"), "~", tr("*.jpg"));
         ui->ChooseImgLe->setText(path);
     });
     connect(ui->DeleteImg, &QPushButton::clicked, [this]() {
@@ -342,7 +342,7 @@ void MainWindow::connectButtons() {
     connect(m_netaccman, &QNetworkAccessManager::finished, [this](QNetworkReply *reply) {
         QPixmap img;
         img.loadFromData(reply->readAll());
-        QString fileName = QFileDialog::getSaveFileName(this, "Save File", ".", "*.jpeg");
+        QString fileName = QFileDialog::getSaveFileName(this, "Save File", ".", "*.jpg");
         QFile file(fileName);
         file.open(QIODevice::WriteOnly);
         if (img.save(&file)) {
