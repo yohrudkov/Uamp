@@ -38,10 +38,33 @@
 Desktop application for to playing audio and video files, reading and editing metadata of several popular audio formats.\
 Uamp uses a graphical interface to make it easy to modify tags and is completely free to use.
 
+Sign In/Up page:
 <p align="center">
     <img alt="Uamp"
     title="Uamp"
-    src="https://github.com/yohrudkov/Utag/blob/main/app/resources/img/2.jpg?raw=true"
+    src="https://github.com/yohrudkov/Uamp/blob/main/app/resources/img/sigin.jpg?raw=true"
+    width="200">
+    <img alt="Uamp"
+    title="Uamp"
+    src="https://github.com/yohrudkov/Uamp/blob/main/app/resources/img/signup.jpg?raw=true"
+    width="200">
+</p>
+
+Player, library and radio pages:
+<p align="center">
+    <img alt="Uamp"
+    title="Uamp"
+    src="https://github.com/yohrudkov/Uamp/blob/main/app/resources/img/player.jpg?raw=true"
+    width="400">
+    <br>
+    <img alt="Uamp"
+    title="Uamp"
+    src="https://github.com/yohrudkov/Uamp/blob/main/app/resources/img/playlist.jpg?raw=true"
+    width="400">
+    <br>
+    <img alt="Uamp"
+    title="Uamp"
+    src="https://github.com/yohrudkov/Uamp/blob/main/app/resources/img/radio.jpg?raw=true"
     width="400">
 </p>
 
@@ -82,7 +105,7 @@ A few of the things you can do with Uamp:
 For find_package to be successful, CMake must find the Qt installation in one of the following ways:
 
 - Set your CMAKE_PREFIX_PATH environment variable to the Qt 5 installation prefix:
-    - uncomment and change CMAKE_PREFIX_PATH path in *`Utag/CMakeLists.txt`* file;
+    - uncomment and change CMAKE_PREFIX_PATH path in *`Uamp/CMakeLists.txt`* file;
     - or just run *`export CMAKE_PREFIX_PATH=/path_to_qt_directory`* commend in shell.
 - Set the Qt5_DIR in the CMake cache to the location of the Qt5Config.cmake file.
 
