@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Other
+*.DS_Store
+.idea
+.vscode/
+build/
+uamp
+uamp.db

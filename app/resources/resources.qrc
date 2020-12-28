@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>xit.png</file>
+        <file>Volume1.svg</file>
+        <file>Volume2.svg</file>
+        <file>Stop.svg</file>
+        <file>rus.png</file>
+        <file>Sort.svg</file>
+        <file>Rewind.svg</file>
+        <file>roks.png</file>
+        <file>Rep4.svg</file>
+        <file>Rep3.svg</file>
+        <file>Rep1.svg</file>
+        <file>Rep2.svg</file>
+        <file>relax.png</file>
+        <file>Pause.svg</file>
+        <file>Play.svg</file>
+        <file>nashe.png</file>
+        <file>Next.svg</file>
+        <file>melodiya.png</file>
+        <file>kiss.png</file>
+        <file>jazz.png</file>
+        <file>gold.png</file>
+        <file>Forward.svg</file>
+        <file>Dote.svg</file>
+        <file>Back.svg</file>
+        <file>1.svg</file>
+        <file>2.svg</file>
+        <file>Note.svg</file>
+        <file>Eye2.png</file>
+        <file>exe.svg</file>
+        <file>Eye1.png</file>
+        <file>Error.svg</file>
+        <file>Down.svg</file>
+        <file>Up.svg</file>
+        <file>Album.svg</file>
+    </qresource>
+</RCC>
